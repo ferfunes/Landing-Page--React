@@ -10,22 +10,26 @@ import { Footer } from "./Footer.js";
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="container">
+			<div className="todo">
 				<div>
 					<NavBar />
 				</div>
-				<div>
-					<Jumbo />
+				<div className="container">
+					<div className="JumboCont">
+						<Jumbo />
+					</div>
+
+					<div className="row">
+						<Card />
+						<Card />
+						<Card />
+						<Card />
+					</div>
 				</div>
 
-				<div className="row">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
+				<div>
+					<Footer />
 				</div>
-				<Footer />
-				<div />
 			</div>
 		);
 	}
