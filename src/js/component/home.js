@@ -20,10 +20,10 @@ export class Home extends React.Component {
 					</div>
 
 					<div className="row">
-						<Card />
-						<Card />
-						<Card />
-						<Card />
+						<Card content="This is a example" tucanBtn="Click Me" />
+						<Card content="This is a example" />
+						<Card content="This is a example" />
+						<Card content="This is a example" />
 					</div>
 				</div>
 
